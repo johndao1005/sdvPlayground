@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="/normalize.css" rel="stylesheet">
+    <style>
+        header {
+            text-align: center;
+            background: url(https://i.imgur.com/gGjTF8N.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: red;
+        }
+        
+        a {
+            color: red;
+        }
+        
+        h1 {
+            font-size: 666px;
+        }
+        
+        img {
+            border: 7px solid white;
+            border-radius: 20px;
+            width: 100vw;
+        }
+        
+        ul {
+            padding: 10px;
+            background: #000;
+        }
+        
+        li {
+            display: inline;
+            padding: 0px 10px 0px 10px;
+        }
+        
+        article {
+            max-width: 500px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            color: #f09;
+        }
+        
+        p {
+            font-size: 25px;
+        }
+        
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 36px;
+                padding: 5px;
+            }
+            li {
+                padding: 5px;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <image src="https://i.imgur.com/gGjTF8N.png" />
+    <h1></h1>
+    <header>
+        <ul>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Concepts For Both</a></li>
+        </ul>
+    </header>
+    <article>
+        <h2>These are my thoughts on Design and Development Concepts</h2>
+        <p>Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development
+            concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design
+            and development concepts.Man i love Design and development concepts.</p>
+        <button>Like</button>
+    </article>
+    <article>
+        <h2>These are also some of my thoughts</h2>
+        <p>Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development
+            concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design
+            and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.</p>
+        <button>Like</button>
+    </article>
+    <article>
+        <h2>Oh yes - I also forgot to mention</h2>
+        <p>Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development
+            concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design and development concepts.Man i love Design
+            and development concepts.Man i love Design and development concepts.</p>
+        <button>Like</button>
+    </article>
+    <script>
+        $("button").on("click", function() {
+            alert("Boy Oh Boy Do I love Design and Development Concepts!");
+        });
+    </script>
+</body>
